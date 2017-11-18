@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e718d801-2104-4dad-bdbc-167c13752d7b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-component/src/components/Menu.js" afterPath="$PROJECT_DIR$/react-component/src/components/Menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-component/src/components/App.js" afterPath="$PROJECT_DIR$/react-component/src/components/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-component/src/components/Header.js" afterPath="$PROJECT_DIR$/react-component/src/components/Header.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +42,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-component/src/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -50,19 +51,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-component/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="38">
+              <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-component/src/components/Menu.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -102,9 +101,9 @@
         <option value="$PROJECT_DIR$/react-component/src/header.js" />
         <option value="$PROJECT_DIR$/react-component/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/react-component/src/index.js" />
-        <option value="$PROJECT_DIR$/react-component/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/react-component/src/components/App.js" />
         <option value="$PROJECT_DIR$/react-component/src/components/Menu.js" />
+        <option value="$PROJECT_DIR$/react-component/src/components/App.js" />
+        <option value="$PROJECT_DIR$/react-component/src/components/Header.js" />
       </list>
     </option>
   </component>
@@ -118,10 +117,10 @@
     <handled-path value="$PROJECT_DIR$/react-component/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="189" />
-    <option name="y" value="8" />
-    <option name="width" value="1400" />
-    <option name="height" value="1028" />
+    <option name="x" value="-20" />
+    <option name="y" value="58" />
+    <option name="width" value="1398" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -208,15 +207,15 @@
       <option name="presentableId" value="Default" />
       <updated>1510989859192</updated>
       <workItem from="1510989860453" duration="3801000" />
-      <workItem from="1510994266886" duration="3641000" />
+      <workItem from="1510994266886" duration="3977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7442000" />
+    <option name="totallyTimeSpent" value="7778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="189" y="8" width="1922" height="1092" extended-state="6" />
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24986821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -291,16 +290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-component/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-component/src/components/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -327,20 +316,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/react-component/src/components/Menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react-component/src/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-component/src/components/Menu.js">
+    <entry file="file://$PROJECT_DIR$/react-component/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="38">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           <folding />
         </state>
       </provider>
