@@ -3,32 +3,22 @@ import Header from './Header';
 import Footer from './Footer';
 import Home from './Home';
 import Profile from './Profile';
+import ProfilePost from './ProfilePost';
 import Dashboard from './Dashboard';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 const App = () => {
     return (
         <Router>
             <div>
                 <Header/>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/profile">Profile</Link>
-                    </li>
-                    <li>
-                        <Link to="/dashboard"> Dashboard</Link>
-                    </li>
-                </ul>
                 <Route exact path='/' component={Home}/>
                 <Route path='/profile' component={Profile}/>
                 <Route path='/dashboard' component={Dashboard}/>
+                <Route path='/profile/:postId' component={ProfilePost}/>
                 <Footer/>
             </div>
         </Router>
-    )
-        ;
+    );
 };
 export default App;
