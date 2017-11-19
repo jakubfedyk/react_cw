@@ -1,9 +1,12 @@
 import React from 'react';
 
 const Home = () => {
+    const handleClick = () => {
+        alert('handle click');
+    };
     return  (
-        <div>Hello  World
-            <span>Lorem Ipsum</span>
+        <div>
+            <button className="btn btn-primary" onClick={handleClick}>Button</button>
         </div>
     );
 };
