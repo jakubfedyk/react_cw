@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Counter from 'Counter';
 import Footer from './Footer';
 import Home from './Home';
 import Profile from './Profile';
