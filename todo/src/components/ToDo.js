@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class Todo extends Component {
+class ToDo extends Component {
     render() {
         return <div>
-            <h1>Things to do</h1>
+            <h2>Things to do</h2>
         </div>
     }
 }
 
-export default Todo;
+export default ToDo;
