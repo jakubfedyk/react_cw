@@ -1,5 +1,7 @@
 import React from 'react';
+import {Nav, NavItem} from 'react-bootstrap'
 import {Link} from 'react-router-dom';
+import {LinkContainer} from 'react-router-bootstrap';
 
 
 const Menu = () => {
@@ -20,11 +22,17 @@ const Menu = () => {
                 </li>
 
             </ul>
-            {/*<Nav bsStyle="pills" activeKey={0}>*/}
-            {/*<NavItem eventKey={1}>Home</NavItem>*/}
-            {/*<NavItem eventKey={2}>Profile</NavItem>*/}
-            {/*<NavItem eventKey={3}>Dashboard</NavItem>*/}
-            {/*</Nav>*/}
-        </div>)
+            <Nav bsStyle="pills"> <LinkContainer exact to="/">
+                <NavItem>Home</NavItem>
+            </LinkContainer>
+                <LinkContainer exact to="/profile">
+                    <NavItem>Profile</NavItem>
+                </LinkContainer>
+                <LinkContainer exact to="/dashboard">
+                    <NavItem>Dashboard</NavItem>
+                </LinkContainer>
+            </Nav>
+        </div>
+    )
 };
 export default Menu;
