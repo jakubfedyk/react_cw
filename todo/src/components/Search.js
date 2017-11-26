@@ -7,7 +7,7 @@ class Search extends Component {
         this.handleSubmit = this.handleFormSubmit.bind(this)
     }
     handleFormSubmit(event) {
-        console.log('Wartosc search: ' + this.ksiezniczka.value)
+        console.log('Wartosc search: ' + this.searchField.value)
         event.preventDefault();
     }
     render() {
@@ -16,7 +16,7 @@ class Search extends Component {
         };
         return <div>
             <form onSubmit={this.handleSubmit}>
-                <input type='text' ref={field => this.ksiezniczka = field}/>
+                <input type='text' ref={field => this.searchField = field}/>
                 <input type='submit' style={styleInput} value='Szukaj'/>
             </form>
         </div>
