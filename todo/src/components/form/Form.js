@@ -48,7 +48,7 @@ class Form extends Component {
                     <option>Option 2</option>
                     <option>Option 3</option>
                 </select>
-                <input type='submit' value='Wyslij mnie prosze'/>
+                <input type='submit' value='Wyslij mnie prosze!'/>
             </form>
         </div>
     }
