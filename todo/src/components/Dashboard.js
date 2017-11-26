@@ -11,7 +11,7 @@ class Dashboard extends Component {
             </div>
             <div>
                 <div>Widget 3</div>
-                <div>Widget 4</div>
+                <div>Widget 4   </div>
             </div>
         </div>
     }

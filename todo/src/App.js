@@ -15,7 +15,7 @@ class App extends Component {
             <Router>
                 <div>
                     <Header/>
-                    <Route path='/' component={Dashboard}/>
+                    <Route exact path='/' component={Dashboard}/>
                     <Route path='/todo' component={ToDo}/>
                     <Route path='/counter' component={Counter}/>
                     <Route path='/form' component={Form}/>
