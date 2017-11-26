@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import Button from './Button';
+import Button from './button/Button';
 
 
 class Header extends Component {
@@ -11,6 +11,7 @@ class Header extends Component {
                 <li><Link to ='/'>Dashboard</Link></li>
                 <li><Link to ='/todo'>To Do</Link></li>
                 <li><Link to ='/counter'>Counter</Link></li>
+                <li><Link to ='/form'>Form</Link></li>
             </ul>
             <Button label='OK!'/>
             <Button label='Not OK!'/>

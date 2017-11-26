@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
+import './Button.css'
 
 class Button extends Component {
     render() {
-        const ButtonStyle ={
+        const ButtonStyle = {
             backgroundColor: 'green',
-            color:'yellow'
+            color: 'yellow',
+            fontSize: 20,
+            frameBorder:0,
+            borderRadius: 200,
         };
-        return <div>
+        return <div className="btn-container">
             <button style={ButtonStyle}>{this.props.label}</button>
         </div>
     }
