@@ -39,7 +39,7 @@ class Form extends Component {
             <h3>{this.state.title ? "Promocja " + this.state.title : 'Nie ma niczego'} </h3>
             <p>{this.state.content} </p>
             <p>Kategoria: {this.state.category} </p>
-            <form onSubmit={this.state}>
+            <form onSubmit={this.handleSubmit}>
                 <label>Name:
                     <input type='text' onChange={this.handleTitle}/></label>
                 <textarea onChange={this.handleContent}/>
