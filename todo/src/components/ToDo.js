@@ -10,7 +10,6 @@ class ToDo extends Component {
                 'Umyć okna'
             ]
         }
-
     }
 
     componentDidMount() {

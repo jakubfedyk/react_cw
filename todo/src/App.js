@@ -6,6 +6,7 @@ import ToDo from './components/ToDo';
 import Counter from './components/Counter';
 import Footer from './components/Footer';
 import Form from './components/Form';
+import TaskContainer from './components/Tasks/Container';
 import Users from './components/Users';
 import './App.css';
 
@@ -21,7 +22,8 @@ class App extends Component {
                     <Route path='/counter' component={Counter}/>
                     <Route path='/form' component={Form}/>
                     <Route path='/users' component={Users}/>
-                <Footer/>
+                    <Route path='/tasks' component={TaskContainer}/>
+                    <Footer/>
                 </div>
             </Router>
         );

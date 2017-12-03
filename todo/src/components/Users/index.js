@@ -5,6 +5,7 @@ class Users extends Component {
         super(props);
         this.fetchData = this.fetchData.bind(this)
         this.state = {
+            loading: false,
             users: [{
                 name: 'Ala Grażyna'
             }, {
@@ -16,20 +17,33 @@ class Users extends Component {
     }
 
     fetchData() {
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(response => response.json())
-            .then(data => {
-                this.setState({users: data})
-            });
+        this.setState({loading: true});
+        setTimeout(() => {
+            fetch('https://jsonplaceholder.typicode.com/users')
+                .then(response => response.json())
+                .then(data => {
+                    this.setState({loading: false, users: data})
+                });
+        }, 3000);
+    }
+
+    renderIndicator() {
+        if (this.state.loading) {
+            return <div style={{color: 'red', fontSize: 26}}>Loading...</div>
+        }
     }
 
     render() {
         return (
             < div>
                 < h1> Users</h1>
+                {this.renderIndicator()}
                 <button onClick={this.fetchData}>Pobierz dane</button>
                 {this.state.users.map((user, index) => (
-                    <div key={index}>{user.name}</div>
+                    <div key={index}>
+                        <div>Nazwa: {user.name}</div>
+                        <div>E:mail: {user.email}</div>
+                    </div>
                 ))}
             </div>
         )
